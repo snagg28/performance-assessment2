@@ -10,7 +10,7 @@
                                    
   2. Madala Sathwik: (Deploying the static website locally using Kubernetes by creating a deployment and NodePort service)
                      Creating a Kubernetes deployment configuration to run the containerized static website and exposing it using a NodePort service. Applying the configuration locally using 
-                     kubectl to deploy the application and making it accessible via http://localhost:30001. 
+                     kubectl to deploy the application and making it accessible. 
 
 * Steps Performed -
 
@@ -26,9 +26,10 @@
        - Build the Docker image
        - Push it to GHCR (GitHub Container Registry)
        - Multi-platform support (amd64 + arm64)
-    
-   <img width="1509" alt="Screenshot 2025-06-20 at 1 15 34 AM" src="https://github.com/user-attachments/assets/a4bd22b4-17c8-444b-bd96-70af111365f8" />
-  
+
+         
+   <img width="1510" alt="Screenshot 2025-06-20 at 1 30 38 AM" src="https://github.com/user-attachments/assets/8ef48b38-d358-4707-8859-8abfd05595a9" />
+
 4. Docker Image
    - Image successfully pushed to: ghcr.io/snagg28/performance-assesment2:latest
 
@@ -38,6 +39,7 @@
    - Created deployment.yaml to:
        - Deploy the Docker image using a Kubernetes Deployment
        - Expose it using a NodePort Service at port 30001
+
          
    <img width="838" alt="Screenshot 2025-06-20 at 1 21 51 AM" src="https://github.com/user-attachments/assets/91021336-bbc6-49e7-a5e7-1499c86e39dd" />
 
