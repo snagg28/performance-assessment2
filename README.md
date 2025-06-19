@@ -38,7 +38,7 @@
 5. Kubernetes Deployment 
    - Created deployment.yaml to:
        - Deploy the Docker image using a Kubernetes Deployment
-       - Expose it using a NodePort Service at port 30001
+       - Expose it using a NodePort Service 
 
          
    <img width="838" alt="Screenshot 2025-06-20 at 1 21 51 AM" src="https://github.com/user-attachments/assets/91021336-bbc6-49e7-a5e7-1499c86e39dd" />
